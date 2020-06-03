@@ -5,4 +5,5 @@ The purpose of this website is to allow users to upload photos of unique pattern
 **Note:** The buttons do not lead anywhere
 
 **Languages:** HTML, CSS
+
 **Libraries:** Bootstrap 
