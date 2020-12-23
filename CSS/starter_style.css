@@ -14,3 +14,12 @@ body{
      color: #f1faee;
  }
 
+ span{
+     color:#457b9d;
+ }
+ .tag{
+     background-color: #e63946;
+     color:#f1faee;
+     font-size: 16px;
+ }
+
