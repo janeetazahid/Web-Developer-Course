@@ -34,4 +34,11 @@ body{
  input[type="text"]{
      background-color: lightgrey;
  }
+ a:hover{
+     color:darkgreen;
+ }
+ button:hover{
+     background-color: #e63946;
+     color: #f1faee;
+ }
 
