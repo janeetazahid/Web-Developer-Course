@@ -1,9 +1,10 @@
- *{
-     color:black;
- }
+body{
+    background-color: #f1faee;
+}
  button{
      font-size: 30px;
  }
  h1,h2{
      color:brown;
  }
+
