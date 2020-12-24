@@ -5,6 +5,8 @@ div{
 }
 h1{
     background-color: blueviolet;
+    padding-left: 100px;
+    padding-top: 50px;
 }
 #one{
     background-color: #e5989b;
