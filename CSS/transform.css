@@ -43,3 +43,6 @@ section:nth-of-type(2) h1:nth-of-type(2){
 section:nth-of-type(2) h1:nth-of-type(3){
     transform: rotate(20deg) scale(1.2);
 }
+section:nth-of-type(2) h1:nth-of-type(4){
+    transform: translateX(-500px) rotate(180deg);
+}
