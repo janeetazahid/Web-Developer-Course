@@ -20,3 +20,9 @@ div{
     top: 100px;
     left: 100px;
 }
+
+#abs #middle{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
