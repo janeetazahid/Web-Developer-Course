@@ -42,3 +42,7 @@ body{
      color: #f1faee;
  }
 
+ h2::first-letter{
+     font-size: 50px;
+ }
+
