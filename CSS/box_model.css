@@ -9,14 +9,14 @@ h1{
 #one{
     background-color: #e5989b;
     border-width: 5px;
-    border-color: black;
+    border-color:black;
     border-style: solid;
 }
 #two{
     background-color: #b5838d;
     border-width: 5px;
-    border-color: black;
-    border-style: solid;
+    border-color: #ffcdb2;
+    border-style: inset;
     box-sizing: border-box;
 }
 #three{
