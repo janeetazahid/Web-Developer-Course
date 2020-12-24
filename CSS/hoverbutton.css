@@ -15,5 +15,6 @@ button{
     font-size: 1em;
 }
 button:hover{
-    
+    border-color: #f1ff5c;
+    color: white;
 }
