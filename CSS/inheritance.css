@@ -13,3 +13,7 @@ section{
 form{
     color: chocolate;
 }
+
+button{
+    color:inherit;
+}
