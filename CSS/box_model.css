@@ -17,6 +17,7 @@ h1{
     border-width: 5px;
     border-color: black;
     border-style: solid;
+    box-sizing: border-box;
 }
 #three{
     background-color: #6d6875;
