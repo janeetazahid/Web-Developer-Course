@@ -6,5 +6,6 @@ h1{
 span{
     background-color: paleturquoise;
     border: 1px solid black;
+    display: block;
     
 }
