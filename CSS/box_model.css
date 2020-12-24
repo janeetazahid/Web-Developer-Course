@@ -8,9 +8,15 @@ h1{
 }
 #one{
     background-color: #e5989b;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
 }
 #two{
     background-color: #b5838d;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
 }
 #three{
     background-color: #6d6875;
