@@ -12,12 +12,12 @@ h1{
     margin: 0 auto;
     border: 5px solid #003049;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
     flex-wrap: wrap-reverse;
 }
 
 #container div{
-   width: 200px; 
+   width: 600px; 
    height: 200px;
 }
