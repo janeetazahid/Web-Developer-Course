@@ -8,13 +8,12 @@ h1{
 #container{
     background-color: #003049;
     width: 90%;
-    height: 500px;
+    /*height: 500px;*/
     margin: 0 auto;
     border: 5px solid #003049;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
     flex-wrap: wrap;
 }
 
@@ -22,7 +21,5 @@ h1{
    width: 200px; 
    height: 200px;
    text-align: center;
-}
-div:nth-last-of-type(3){
-    align-self: flex-end;
+   flex-basis: 400px;
 }
