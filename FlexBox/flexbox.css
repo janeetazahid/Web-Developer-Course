@@ -1,0 +1,8 @@
+section:first-of-type div:nth-of-type(1){
+    background-color: #80ffdb;
+    width: 100px;
+}
+h1{
+    text-align: center;
+
+}
