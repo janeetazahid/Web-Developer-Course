@@ -24,3 +24,6 @@ console.log(userInput.trim())
 //indexOf()
 //gives FIRST matching index
 console.log(userInput.indexOf('ob'))
+
+//slice 
+console.log(userInput.slice(10))
