@@ -44,3 +44,7 @@ console.log(`You bought ${qty} Avacados, for ${price} each. Total is $${qty*pric
  
 //Math 
 console.log(Math.PI)
+
+//comparison operations 
+console.log((1=='1')) //shows true because it does not care about type 
+console.log((1==='1')) //cares about type
