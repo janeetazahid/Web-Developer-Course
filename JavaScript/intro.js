@@ -17,3 +17,10 @@ console.log(concat)
 //string methods
 //toUpperCase()
 console.log(username.toUpperCase())
+//trim()
+let userInput="   Hello, my name is bob"
+console.log(userInput)
+console.log(userInput.trim())
+//indexOf()
+//gives FIRST matching index
+console.log(userInput.indexOf('ob'))
