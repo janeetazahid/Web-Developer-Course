@@ -13,3 +13,7 @@ console.log(username.length)
 let num=" 1";
 let concat=username+num
 console.log(concat)
+
+//string methods
+//toUpperCase()
+console.log(username.toUpperCase())
