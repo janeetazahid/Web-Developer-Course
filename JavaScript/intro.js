@@ -8,3 +8,4 @@ console.log(year)
 
 let username="Janeeta"
 console.log(username)
+console.log(username[0])
