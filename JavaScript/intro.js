@@ -27,3 +27,6 @@ console.log(userInput.indexOf('ob'))
 
 //slice 
 console.log(userInput.slice(10))
+
+//replace()
+console.log(userInput.replace('bob','tom'))
