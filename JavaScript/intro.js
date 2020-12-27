@@ -41,4 +41,6 @@ qty=3
 price=3
 
 console.log(`You bought ${qty} Avacados, for ${price} each. Total is $${qty*price}`)
-
+ 
+//Math 
+console.log(Math.PI)
