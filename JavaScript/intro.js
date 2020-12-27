@@ -6,6 +6,10 @@ console.log(year)
 
 
 
-let username="Janeeta"
+let username="Janeeta";
 console.log(username)
 console.log(username[0])
+console.log(username.length)
+let num=" 1";
+let concat=username+num
+console.log(concat)
