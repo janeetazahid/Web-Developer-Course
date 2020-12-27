@@ -29,4 +29,6 @@ console.log(userInput.indexOf('ob'))
 console.log(userInput.slice(10))
 
 //replace()
+//first matching instance replaced only
 console.log(userInput.replace('bob','tom'))
+
