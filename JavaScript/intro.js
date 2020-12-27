@@ -32,3 +32,13 @@ console.log(userInput.slice(10))
 //first matching instance replaced only
 console.log(userInput.replace('bob','tom'))
 
+//Template literals 
+//must use backtick key 
+
+console.log(`Hello ${1+2+9}`)
+
+qty=3
+price=3
+
+console.log(`You bought ${qty} Avacados, for ${price} each. Total is $${qty*price}`)
+
