@@ -11,21 +11,33 @@ let random=Math.random()
 //     console.log(random) 
 // }
 
-const dayofWeek=prompt("Enter a day").toLowerCase();
+// const dayofWeek=prompt("Enter a day").toLowerCase();
 
-if(dayofWeek==="monday")
-    {
-        console.log("I hate mondays")
+// if(dayofWeek==="monday")
+//     {
+//         console.log("I hate mondays")
+//     }
+// else if(dayofWeek==="sunday")
+//     {
+//         console.log("I suppose this works")
+//     }
+// else if(dayofWeek==="friday") 
+//     {
+//         console.log("YAY!")
+//     }
+// else 
+//     {
+//         console.log("Meh")
+//     
+const password=prompt("Please enter a password")
+if (password.length>=6){
+    if (password.indexOf(' ')===-1){
+        console.log("Good password");
     }
-else if(dayofWeek==="sunday")
-    {
-        console.log("I suppose this works")
+    else{
+        console.log("Password can't have a space");
     }
-else if(dayofWeek==="friday") 
-    {
-        console.log("YAY!")
-    }
-else 
-    {
-        console.log("Meh")
-    }
+}
+else{
+    console.log("Password is too short");
+}
