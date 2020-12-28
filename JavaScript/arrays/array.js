@@ -1,0 +1,1 @@
+let days=['Monday','Tuesday','Wednesday'] //defining array
