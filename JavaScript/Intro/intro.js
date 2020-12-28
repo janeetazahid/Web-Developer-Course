@@ -30,14 +30,9 @@ let random=Math.random()
 //         console.log("Meh")
 //     
 const password=prompt("Please enter a password")
-if (password.length>=6){
-    if (password.indexOf(' ')===-1){
-        console.log("Good password");
-    }
-    else{
-        console.log("Password can't have a space");
-    }
+if (password.length>=6 && password.indexOf(' ')===-1){
+    console.log("Good password")
 }
 else{
-    console.log("Password is too short");
+    console.log("Invalid password");
 }
