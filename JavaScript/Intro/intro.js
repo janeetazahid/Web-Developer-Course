@@ -11,17 +11,17 @@ let random=Math.random()
 //     console.log(random) 
 // }
 
-const dayofWeek=prompt("Enter a day");
+const dayofWeek=prompt("Enter a day").toLowerCase();
 
-if(dayofWeek==="Monday")
+if(dayofWeek==="monday")
     {
         console.log("I hate mondays")
     }
-else if(dayofWeek==="Sunday")
+else if(dayofWeek==="sunday")
     {
         console.log("I suppose this works")
     }
-else if(dayofWeek==="Friday") 
+else if(dayofWeek==="friday") 
     {
         console.log("YAY!")
     }
