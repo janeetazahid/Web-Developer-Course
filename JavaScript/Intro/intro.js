@@ -13,9 +13,11 @@ if (random<=0.5){
 
 const dayofWeek="Monday";
 
-if(dayofWeek==="Monday"){
-    console.log("I hate mondays")
-}
-else if(dayofWeek==="Sunday"){
-    console.log("I suppose this works")
-}
+if(dayofWeek==="Monday")
+    {
+        console.log("I hate mondays")
+    }
+else if(dayofWeek==="Sunday")
+    {
+        console.log("I suppose this works")
+    }
