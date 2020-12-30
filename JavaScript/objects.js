@@ -32,3 +32,7 @@ const midterms={
                 thomas:78
 
                 }
+//updating object 
+midterms.thomas=79;
+
+console.log(midterms)
