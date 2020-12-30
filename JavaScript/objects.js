@@ -25,3 +25,10 @@ let fullAddress=restaurant['address'] + ' '+ restaurant['city'] + ' ' +restauran
 
 
 console.log(fullAddress)
+
+
+const midterms={
+                danielle: 96,
+                thomas:78
+
+                }
