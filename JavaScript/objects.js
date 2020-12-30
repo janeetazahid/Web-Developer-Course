@@ -36,3 +36,5 @@ const midterms={
 midterms.thomas=79;
 
 console.log(midterms)
+midterms['antonio']=87;
+console.log(midterms)
