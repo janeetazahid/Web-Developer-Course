@@ -8,3 +8,8 @@ console.log(days)
 
 
 const nums=[1,2,3]//can change content but not reassign
+
+
+//nested arrays 
+const board=[['X','O','X'],['O',null,'X'],['O',"O",'X']]
+console.log(board)
