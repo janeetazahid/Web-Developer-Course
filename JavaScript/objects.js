@@ -8,3 +8,5 @@ const person={
             }           
 
 console.log(person)
+//accessing values 
+console.log(person["firstname"])
