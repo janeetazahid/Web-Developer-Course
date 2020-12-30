@@ -7,4 +7,4 @@ days.unshift('Hello')
 console.log(days)
 
 
-const nums=[1,2,3]
+const nums=[1,2,3]//can change content but not reassign
