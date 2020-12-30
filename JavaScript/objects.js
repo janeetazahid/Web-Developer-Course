@@ -10,3 +10,4 @@ const person={
 console.log(person)
 //accessing values 
 console.log(person["firstname"])
+console.log(person.lastName)
