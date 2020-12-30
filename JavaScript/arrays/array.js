@@ -5,3 +5,6 @@ days[10]='Sunday'
 console.log(days.length)
 days.unshift('Hello')
 console.log(days)
+
+
+const nums=[1,2,3]
