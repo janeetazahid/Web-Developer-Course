@@ -25,7 +25,8 @@ while (userInput!=="quit")
         else if (userInput==="delete")
         {
             let indexDel=prompt("which list entry would you like to delete?");
-            todoList.splice(indexDel,1);
+            const del=todoList.splice(indexDel,1);
+            console.log(`Deleted ${del}`);
         }
         userInput=prompt("What would you like to do?");
     }
