@@ -24,9 +24,16 @@ while (userInput!=="quit")
         }
         else if (userInput==="delete")
         {
-            let indexDel=prompt("which list entry would you like to delete?");
-            const del=todoList.splice(indexDel,1);
-            console.log(`Deleted ${del}`);
+            let indexDel=parseInt(prompt("which list entry would you like to delete?"));
+            if(!Number.isNaN(indexDel))
+            {
+                const del=todoList.splice(indexDel,1);
+                console.log(`Deleted ${del}`);
+            }
+            else{
+                console.log("Unknown Index");
+            }
+            
         }
         userInput=prompt("What would you like to do?");
     }
