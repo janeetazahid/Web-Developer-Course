@@ -49,3 +49,10 @@ const doubles=nums.map(function(num){
 })
 
 console.log(doubles)
+
+
+const movieTitles=movies.map(function(movie){
+    return movie.title;
+})
+
+console.log(movieTitles)
