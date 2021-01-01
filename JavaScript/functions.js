@@ -92,3 +92,20 @@ const add=function(x,y){
 console.log(add(3,4))
 
 
+//higher order functions 
+
+function callTwice(func)
+{
+    func();
+    func();
+}
+
+function rollDie()
+{
+    const roll=Math.floor(Math.random()*6)+1
+    console.log(roll)
+}
+callTwice(rollDie)
+
+
+
