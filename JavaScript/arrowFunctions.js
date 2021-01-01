@@ -20,8 +20,8 @@ const movies=[
     }
 ]
 
-
-const addArr=(arr)=>{
+//with single argument paranthesis is not needed 
+const addArr=arr=>{
     let i=0;
     let sum=0;
     for (i;i<arr.length;i++)
