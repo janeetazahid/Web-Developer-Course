@@ -85,4 +85,10 @@ function returnDay(num)
     return arr_day[num-1];
 }
 
+//function expression
+const add=function(x,y){
+            return x+y;
+        }
+console.log(add(3,4))
+
 
