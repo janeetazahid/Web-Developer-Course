@@ -40,3 +40,12 @@ movies.forEach(function(movie){
 }
 
 )
+
+
+//maps method 
+
+const doubles=nums.map(function(num){
+    return num*2;
+})
+
+console.log(doubles)
