@@ -8,5 +8,28 @@ function print(element)
 
 
 nums.forEach(function(el){
-    console.log(el);
-})
+    if (el%2===0){
+        console.log(el);
+    }
+    
+}) 
+
+
+const movies=[
+    {
+        title:'Amadues',
+        score:99
+    },
+    {
+        title:'Stand by Me',
+        Score:85
+    },
+    {
+        title:'Parasite',
+        score:95
+    },
+    {
+        title:'Alien',
+        score:90
+    }
+]
