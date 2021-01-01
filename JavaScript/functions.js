@@ -105,11 +105,11 @@ function rollDie()
     const roll=Math.floor(Math.random()*6)+1
     console.log(roll)
 }
-callTwice(rollDie)
+callTwice(rollDie)//taking functon as a arg
 
 
 
-
+//returns function
 function makeBetweenFunc(min,max)
 {
     return function(num){
