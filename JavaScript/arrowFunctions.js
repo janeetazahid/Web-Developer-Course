@@ -32,3 +32,12 @@ const addArr=arr=>{
 }
 
 console.log(addArr(nums))
+
+
+//implicit return 
+
+const rollDie=()=>(
+    Math.floor(Math.random()*6)+1
+)
+
+console.log(rollDie())
