@@ -127,10 +127,10 @@ console.log(isChild(15))
 const myMath=
     {
         PI: 3.14159,
-        square: function(num){
+        square(num){
             return num*num;
         },
-        cube:function(num){
+        cube(num){
             return num*num*num;
         } 
     }
