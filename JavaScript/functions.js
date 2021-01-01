@@ -117,7 +117,7 @@ function makeBetweenFunc(min,max)
     }
 }
 
-const isChild=makeBetweenFunc(0,18)
+const isChild=makeBetweenFunc(0,18) 
 
 
 console.log(isChild(15))
@@ -127,7 +127,7 @@ console.log(isChild(15))
 const myMath=
     {
         PI: 3.14159,
-        square(num){
+        square(num){ 
             return num*num;
         },
         cube(num){
