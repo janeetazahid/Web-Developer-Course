@@ -121,3 +121,18 @@ const isChild=makeBetweenFunc(0,18)
 
 
 console.log(isChild(15))
+
+
+//methods 
+const myMath=
+    {
+        PI: 3.14159,
+        square: function(num){
+            return num*num;
+        },
+        cube:function(num){
+            return num*num*num;
+        } 
+    }
+
+console.log(myMath.square(2))
