@@ -22,7 +22,7 @@ const movies=[
     },
     {
         title:'Stand by Me',
-        Score:85
+        score:85
     },
     {
         title:'Parasite',
@@ -33,3 +33,10 @@ const movies=[
         score:90
     }
 ]
+
+
+movies.forEach(function(movie){
+        console.log(`${movie.title} - ${movie.score}/100`)
+}
+
+)
