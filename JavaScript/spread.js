@@ -26,5 +26,5 @@ console.log(dog);
 const lion={...feline,genus:'Panthera'};
 console.log(lion)
 
-const catDog={...feline,...canine};
+const catDog={...feline,...canine}; //family property is overwritten 
 console.log(catDog)
