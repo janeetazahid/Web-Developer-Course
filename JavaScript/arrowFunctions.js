@@ -30,7 +30,7 @@ const addArr=arr=>{
     }
     return sum;
 }
-
+ 
 console.log(addArr(nums))
 
 
@@ -40,3 +40,5 @@ const rollDie=()=>Math.floor(Math.random()*6)+1
 
 
 console.log(rollDie())
+
+
