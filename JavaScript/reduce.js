@@ -24,7 +24,7 @@ console.log(minVal)
 const movies=[
     {
         title:'Amadues',
-        score:99,
+        score:72,
         year:1984
     },
     {
@@ -34,12 +34,12 @@ const movies=[
     },
     {
         title:'Parasite',
-        score:95,
+        score:80,
         year:2004
     },
     {
         title:'Alien',
-        score:90,
+        score:70,
         year:1986
     }
 ]
@@ -47,9 +47,9 @@ const movies=[
 highestRated=movies.reduce((movie,currentMovie)=>{
     if(currentMovie.score>movie.score)
         {
-            return currentMovie.score;
+            return currentMovie;
         }
-    return movie.score;
+    return movie
 })
 
 console.log(highestRated)
