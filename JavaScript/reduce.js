@@ -16,6 +16,40 @@ minVal=nums.reduce((min,currentNum)=>{
         return currentNum;
     }
     return min;
-})
+});
 
 console.log(minVal)
+
+
+const movies=[
+    {
+        title:'Amadues',
+        score:99,
+        year:1984
+    },
+    {
+        title:'Stand by Me',
+        score:85,
+        year:2013
+    },
+    {
+        title:'Parasite',
+        score:95,
+        year:2004
+    },
+    {
+        title:'Alien',
+        score:90,
+        year:1986
+    }
+]
+
+highestRated=movies.reduce((movie,currentMovie)=>{
+    if(currentMovie.score>movie.score)
+        {
+            return currentMovie.score;
+        }
+    return movie.score;
+})
+
+console.log(highestRated)
