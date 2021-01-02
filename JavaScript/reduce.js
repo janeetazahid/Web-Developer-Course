@@ -46,7 +46,7 @@ const movies=[
 
 highestRated=movies.reduce((movie,currentMovie)=>{
     if(currentMovie.score>movie.score)
-        {
+        {  
             return currentMovie;
         }
     return movie
