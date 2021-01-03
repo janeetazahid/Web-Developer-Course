@@ -9,3 +9,6 @@ for (let img of allImages)
 
 
 document.querySelector('#banner') //will find first of this type
+
+
+console.log(document.querySelector('p').innerText) //shows the text inside element
