@@ -12,3 +12,11 @@ document.querySelector('#banner') //will find first of this type
 
 
 console.log(document.querySelector('p').innerText) //shows the text inside element
+
+
+
+const allLinks=document.querySelectorAll('a');
+
+for (let link of allLinks){
+    link.innerText='I AM LINK'
+}
