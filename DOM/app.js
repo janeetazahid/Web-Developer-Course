@@ -20,3 +20,7 @@ const allLinks=document.querySelectorAll('a');
 for (let link of allLinks){
     link.innerText='I AM LINK'
 }
+
+
+document.querySelector('h1').innerHTML='<i>CHICKENS</i>' //select and update html
+document.querySelector('h1').innerHTML +='<sup>Chiken</sup>'
