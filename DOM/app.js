@@ -24,3 +24,6 @@ for (let link of allLinks){
 
 document.querySelector('h1').innerHTML='<i>CHICKENS</i>' //select and update html
 document.querySelector('h1').innerHTML +='<sup>Chiken</sup>'
+
+const firstLink=document.querySelector('a'); //first link
+console.log(firstLink.getAttribute('title'));
