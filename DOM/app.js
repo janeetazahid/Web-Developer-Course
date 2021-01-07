@@ -27,3 +27,6 @@ document.querySelector('h1').innerHTML +='<sup>Chiken</sup>'
 
 const firstLink=document.querySelector('a'); //first link
 console.log(firstLink.getAttribute('title'));
+
+
+firstLink.setAttribute('href','https://www.google.com'); //change href
