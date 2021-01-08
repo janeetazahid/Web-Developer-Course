@@ -45,3 +45,6 @@ for (let link of allLinks)
 
 
 console.log(window.getComputedStyle(h1).fontSize);
+
+
+//classList 
