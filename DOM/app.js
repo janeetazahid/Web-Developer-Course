@@ -48,3 +48,5 @@ console.log(window.getComputedStyle(h1).fontSize);
 
 
 //classList 
+const h2=document.querySelector('h2');
+h2.setAttribute('class','purple'); //add a class to it 
