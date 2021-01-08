@@ -30,3 +30,7 @@ console.log(firstLink.getAttribute('title'));
 
 
 firstLink.setAttribute('href','https://www.google.com'); //change href
+
+
+const h1=document.querySelector('h1');
+console.log(h1.style)
