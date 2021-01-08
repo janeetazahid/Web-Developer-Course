@@ -42,3 +42,6 @@ for (let link of allLinks)
 {
     link.style.color='rgb(255,108,134)'
 }
+
+
+console.log(window.getComputedStyle(h1).fontSize);
