@@ -33,4 +33,12 @@ firstLink.setAttribute('href','https://www.google.com'); //change href
 
 
 const h1=document.querySelector('h1');
-console.log(h1.style)
+console.log(h1.style) //does not contain styles from style sheet 
+
+h1.style.color='blue'
+
+
+for (let link of allLinks)
+{
+    link.style.color='rgb(255,108,134)'
+}
