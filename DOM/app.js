@@ -65,3 +65,6 @@ console.log(firstBoldTag.parentElement.parentElement)
 const paragraph=firstBoldTag.parentElement //(first bold tags parent element is a paragraph)
 
 console.log(paragraph.children) //prints child of paragraph tag
+
+
+const sqaureImg=document.querySelector('.sqaure') //select first sqaure image
