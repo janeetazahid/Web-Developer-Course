@@ -94,3 +94,6 @@ newH3.innerText='I AM NEW' //add text
 
 document.body.appendChild(newH3)
 
+
+const p=document.querySelector('p')
+p.append('I AM NEW TEXT')
