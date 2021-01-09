@@ -67,4 +67,8 @@ const paragraph=firstBoldTag.parentElement //(first bold tags parent element is 
 console.log(paragraph.children) //prints child of paragraph tag
 
 
-const sqaureImg=document.querySelector('.sqaure') //select first sqaure image
+const sqaureImg=document.querySelector('.square') //select first sqaure image
+
+console.log(sqaureImg.nextSibling,sqaureImg.previousSibling) //white space is treated as text so thats why this results in text
+
+console.log(sqaureImg.nextElementSibling,sqaureImg.previousElementSibling)
