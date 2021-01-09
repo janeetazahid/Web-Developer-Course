@@ -87,3 +87,10 @@ document.body.appendChild(newImg) //appends our new image as the last child of t
 
 //add a class to the image 
 newImg.classList.add('square');
+
+
+const newH3=document.createElement('h3') //create new h3
+newH3.innerText='I AM NEW' //add text 
+
+document.body.appendChild(newH3)
+
