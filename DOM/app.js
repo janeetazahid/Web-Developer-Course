@@ -106,6 +106,9 @@ newB.append('HI');
 p.prepend(newB) //first child now
 
 
-const h2=document.createElement('h2') //create new h2
+const h2_new=document.createElement('h2') //create new h2
 
-h2.append('ARE ADORABLE')
+h2_new.append('ARE ADORABLE')
+
+
+h1.insertAdjacentElement('afterend',h2_new)
