@@ -72,3 +72,11 @@ const sqaureImg=document.querySelector('.square') //select first sqaure image
 console.log(sqaureImg.nextSibling,sqaureImg.previousSibling) //white space is treated as text so thats why this results in text
 
 console.log(sqaureImg.nextElementSibling,sqaureImg.previousElementSibling)
+
+
+
+//append child 
+
+//creating new DOM element 
+const newImg=document.createElement('img')
+console.dir(newImg)
