@@ -104,3 +104,8 @@ const newB=document.createElement('b');
 newB.append('HI');
 
 p.prepend(newB) //first child now
+
+
+const h2=document.createElement('h2') //create new h2
+
+h2.append('ARE ADORABLE')
