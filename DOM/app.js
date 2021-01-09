@@ -57,4 +57,6 @@ h2.classList.add('border'); //add border class
 //traversing parent/child/sibling
 
 const firstBoldTag=document.querySelector('b')
-console.log(firstBoldTag)
+console.log(firstBoldTag )
+
+console.log(firstBoldTag.parentElement.parentElement)
