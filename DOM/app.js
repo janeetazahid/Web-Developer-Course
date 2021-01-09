@@ -60,3 +60,7 @@ const firstBoldTag=document.querySelector('b')
 console.log(firstBoldTag )
 
 console.log(firstBoldTag.parentElement.parentElement)
+
+
+const paragraph=firstBoldTag.parentElement //(first bold tags parent element is a paragraph)
+ 
