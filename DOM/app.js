@@ -97,3 +97,10 @@ document.body.appendChild(newH3)
 
 const p=document.querySelector('p')
 p.append('I AM NEW TEXT')
+
+
+
+const newB=document.createElement('b');
+newB.append('HI');
+
+p.prepend(newB) //first child now
