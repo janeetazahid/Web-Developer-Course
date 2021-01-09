@@ -52,3 +52,9 @@ const h2=document.querySelector('h2');
 h2.setAttribute('class','purple'); //add a class to it 
 
 h2.classList.add('border'); //add border class
+
+
+//traversing parent/child/sibling
+
+const firstBoldTag=document.querySelector('b')
+console.log(firstBoldTag)
