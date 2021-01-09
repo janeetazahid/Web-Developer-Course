@@ -80,3 +80,6 @@ console.log(sqaureImg.nextElementSibling,sqaureImg.previousElementSibling)
 //creating new DOM element 
 const newImg=document.createElement('img')
 console.dir(newImg)
+
+//add image source 
+newImg.src='https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80'
