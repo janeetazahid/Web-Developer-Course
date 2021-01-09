@@ -86,3 +86,4 @@ newImg.src='https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?ixid=MXwxM
 document.body.appendChild(newImg) //appends our new image as the last child of the body
 
 //add a class to the image 
+newImg.classList.add('square');
