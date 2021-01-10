@@ -7,6 +7,8 @@ for(let i=1;i<151;i++)
 {
     //create div
     const pokemon=document.createElement('div');
+    pokemon.classList.add('pokemon')
+    
     //create span
     const label=document.createElement('span');
     //add text to span
