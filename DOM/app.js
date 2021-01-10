@@ -119,3 +119,7 @@ h1.insertAdjacentElement('afterend',h2_new)
 const firstLi=document.querySelector('li'); //first li
 const parentLI=firstLi.parentElement;
 parentLI.removeChild(firstLi)
+
+//remove first image
+const img=document.querySelector('img')
+img.remove()
