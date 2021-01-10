@@ -98,7 +98,7 @@ document.body.appendChild(newH3)
 const p=document.querySelector('p')
 p.append('I AM NEW TEXT')
 
-
+ 
 
 const newB=document.createElement('b');
 newB.append('HI');
@@ -112,3 +112,10 @@ h2_new.append('ARE ADORABLE')
 
 
 h1.insertAdjacentElement('afterend',h2_new)
+
+
+//removeChild and remove 
+
+const firstLi=document.querySelector('li'); //first li
+const parentLI=firstLi.parentElement;
+parentLI.removeChild(firstLi)
