@@ -6,3 +6,9 @@ btn2.onclick=function(){
     console.log("you clicked me")
     console.log("I hope it worked")
 }
+
+
+function scream(){
+    console.log("AAAAAAAAAAA")
+}
+btn2.onmouseenter=scream;
