@@ -10,5 +10,5 @@ btn2.onclick=function(){
 
 function scream(){
     console.log("AAAAAAAAAAA")
-}
+} 
 btn2.onmouseenter=scream;
