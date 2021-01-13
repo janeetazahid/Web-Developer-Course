@@ -19,3 +19,12 @@ const btn3=document.querySelector('#v3');
 btn3.addEventListener('click',function(){
     alert("CLICKED");
 })
+
+
+function twist() {
+    console.log("twist")
+}
+
+function shout() {
+    console.log("shout")
+}
