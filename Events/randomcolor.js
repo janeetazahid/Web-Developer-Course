@@ -17,8 +17,7 @@ const makeRandomColor=()=>{
     const r=Math.floor(Math.random()*255); //randomly generate RGB color
     const g=Math.floor(Math.random()*255);
     const b=Math.floor(Math.random()*255);
-    if ((r+g+b)<500){
-        console.log('yes')
+    if ((r+g+b)<200){
         h1.style.color='white'
     }
 
