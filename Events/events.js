@@ -12,3 +12,6 @@ function scream(){
     console.log("AAAAAAAAAAA")
 } 
 btn2.onmouseenter=scream;
+
+
+const btn3=document.querySelector('#v3')
