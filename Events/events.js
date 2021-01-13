@@ -28,3 +28,8 @@ function twist() {
 function shout() {
     console.log("shout")
 }
+
+
+const tAsButton=document.querySelector('#TaS')
+
+tAsButton.onclick=shout;
