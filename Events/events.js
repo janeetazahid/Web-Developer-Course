@@ -32,4 +32,6 @@ function shout() {
 
 const tAsButton=document.querySelector('#TaS')
 
-tAsButton.onclick=shout;
+//ability to add 2 callback events 
+tAsButton.addEventListener('click',twist)
+tAsButton.addEventListener('click',shout)
