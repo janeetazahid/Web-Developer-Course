@@ -18,7 +18,7 @@ const makeRandomColor=()=>{
     const g=Math.floor(Math.random()*255);
     const b=Math.floor(Math.random()*255);
     if ((r+g+b)<200){
-        h1.style.color='white'
+        h1.style.color='white' //if the background is too dark, make the text white
     }
 
     return newColor=`rgb(${r},${g},${b})`;
