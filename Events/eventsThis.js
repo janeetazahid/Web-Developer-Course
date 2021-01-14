@@ -7,3 +7,11 @@ const makeRandColor = () => {
     return `rgb(${r}, ${g}, ${b})`;
 }
 
+
+const buttons=document.querySelectorAll('button') //select all buttons 
+
+for (let button of buttons){
+    button.addEventListener('click', function(){
+        console.log('clicked')
+    })
+}
