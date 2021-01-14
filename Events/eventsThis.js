@@ -12,6 +12,7 @@ const buttons=document.querySelectorAll('button') //select all buttons
 
 for (let button of buttons){
     button.addEventListener('click', function(){
-        console.log('clicked')
+        //set background color to result of random color
+        button.style.backgroundColor=makeRandColor()
     })
 }
