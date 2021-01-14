@@ -16,3 +16,13 @@ for (let button of buttons){
         button.style.backgroundColor=makeRandColor()
     })
 }
+
+
+const h1s=document.querySelectorAll('h1')
+
+
+for(let h1 of h1s){
+    h1.addEventListener('click',function(){
+        h1.style.color=makeRandColor()
+    })
+}
