@@ -23,8 +23,9 @@ for(let h1 of h1s){
     h1.addEventListener('click',colorize)
 }
 
-
+//function to change background and text color 
 function colorize(){
+    //randomly generate 2 colors and set them to the background and text color
     this.style.backgroundColor=makeRandColor();
     this.style.color=makeRandColor();
 }
