@@ -14,3 +14,12 @@ input.addEventListener('keydown',function(e){
     //prints key code
     console.log(e.code)
 })
+
+//listner for whole window
+window.addEventListener('keydown',function(e){
+    //changing output based on input key
+    switch(e.code){
+        case 'ArrowUp':
+            console.log("UP")
+    }
+})
