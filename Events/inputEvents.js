@@ -1,6 +1,8 @@
 
 const input=document.querySelector('input')
 
-input.addEventListener('change',function(e){
-    console.log("AHAHA")
+const h1=document.querySelector('h1')
+
+input.addEventListener('input',function(e){
+    h1.innerText=input.value;
 })
