@@ -7,11 +7,14 @@ const list=document.querySelector("#tweets")
 tweetForm.addEventListener('submit',function(e){
     //prevent default behaviour
     e.preventDefault();
-    //get username and tweet value 
-    const usernameInput= tweetForm.elements.username.value;
-    const tweetInput= tweetForm.elements.tweet.value;
+    //get username and tweet
+    const usernameInput= tweetForm.elements.username
+    const tweetInput= tweetForm.elements.tweet
     //add tweet to ul
-    addTweet(usernameInput,tweetInput)
+    addTweet(usernameInput.value,tweetInput.value)
+    //set values back to default
+    usernameInput.value='';
+    tweetInput.value='';
 
 })
 
