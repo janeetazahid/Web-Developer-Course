@@ -4,8 +4,10 @@ const button=document.querySelector('#button2');
 //select div 
 const container=document.querySelector('#container');
 
-button.addEventListener('click',function(){
+button.addEventListener('click',function(e){
     container.style.backgroundColor=makeRandColor();
+    //prevents event from bubbling up
+    e.stopPropagation();
 })
 
 container.addEventListener('click',function(){
