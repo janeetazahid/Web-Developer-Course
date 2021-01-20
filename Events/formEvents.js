@@ -40,6 +40,7 @@ const addTweet=(usernameInput,tweetInput)=>{
     list.append(newTweet)
 }
 
-list.addEventListener('click',function(){
-    
+list.addEventListener('click',function(e){
+    //thing that was clicked 
+    e.target.remove()
 })
