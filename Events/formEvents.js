@@ -41,6 +41,7 @@ const addTweet=(usernameInput,tweetInput)=>{
 }
 
 list.addEventListener('click',function(e){
-    //thing that was clicked 
-    e.target.remove()
+
+    //make sure the li was clicked and if it was remove it
+    e.target.nodeName=='LI'&& e.target.remove()
 })
