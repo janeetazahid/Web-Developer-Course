@@ -1,4 +1,9 @@
-
+const Lis=document.querySelectorAll('li')
+for (let li of Lis){
+    li.addEventListener('click',function(){
+        li.remove()
+    })
+}
 
 
 const tweetForm=document.querySelector("#tweetForm")
