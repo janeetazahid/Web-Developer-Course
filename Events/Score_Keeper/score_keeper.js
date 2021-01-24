@@ -7,6 +7,10 @@ const player1Display=document.querySelector('#p1Display')
 //select the display of player 2
 const player2Display=document.querySelector('#p2Display')
 
+//slect reset button
+const resetButton=document.querySelector('#reset')
+
+
 let player1Score=0; //start at 0 for both players 
 let player2Score=0; //start at 0 for both players 
 
@@ -44,4 +48,13 @@ player2Button.addEventListener('click',function(){
             player2Display.textContent=player2Score;
         }
 
+})
+
+
+resetButton.addEventListener('click',function(){
+    gameOver=false;
+    player1Score=0;
+    player2Score=0;
+    player1Display.textContent=0;
+    player2Display.textContent=0;
 })
