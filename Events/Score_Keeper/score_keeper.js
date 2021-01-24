@@ -26,8 +26,12 @@ player1Button.addEventListener('click',function(){
 
 
 player2Button.addEventListener('click',function(){
-    //increase score 
-    player2Score+=1;
-    //update display 
-    player2Display.textContent=player2Score;
+    if (player2Score!==winningScore)
+        {
+            //increase score 
+            player2Score+=1;
+            //update display 
+            player2Display.textContent=player2Score;
+        }
+
 })
