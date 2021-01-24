@@ -14,10 +14,14 @@ let winningScore=5; //score needed to win
 
 //add listner event to buttons and listen for a click event 
 player1Button.addEventListener('click',function(){
-    //increase score 
-    player1Score+=1;
-    //update display 
-    player1Display.textContent=player1Score;
+    if (player1Score!==winningScore)
+        {
+            //increase score 
+            player1Score+=1;
+            //update display 
+            player1Display.textContent=player1Score;
+        }
+
 })
 
 
