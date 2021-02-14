@@ -7,7 +7,7 @@ const player1Display=document.querySelector('#p1Display')
 //select the display of player 2
 const player2Display=document.querySelector('#p2Display')
 
-//slect reset button
+//select reset button
 const resetButton=document.querySelector('#reset')
 
 
